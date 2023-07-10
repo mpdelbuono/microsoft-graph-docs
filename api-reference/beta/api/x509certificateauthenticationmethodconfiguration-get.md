@@ -84,10 +84,6 @@ GET https://graph.microsoft.com/beta/policies/authenticationMethodsPolicy/authen
 [!INCLUDE [sample-code](../includes/snippets/php/get-x509certificateauthenticationmethodconfiguration-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/get-x509certificateauthenticationmethodconfiguration-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Python](#tab/python)
 [!INCLUDE [sample-code](../includes/snippets/python/get-x509certificateauthenticationmethodconfiguration-python-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]

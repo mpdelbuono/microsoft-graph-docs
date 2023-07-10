@@ -7,10 +7,10 @@ description: "Automatically generated file. DO NOT MODIFY"
 <?php
 
 // THIS SNIPPET IS A PREVIEW FOR THE KIOTA BASED SDK. NON-PRODUCTION USE ONLY
-$graphServiceClient = new GraphServiceClient($requestAdapter);
+$graphServiceClient = new GraphServiceClient($tokenRequestContext, $scopes);
 
 $requestBody = new SitePage();
-$requestBody->set@odatatype('#microsoft.graph.sitePage');
+$requestBody->setOdataType('#microsoft.graph.sitePage');
 
 $requestBody->setTitle('sample');
 
@@ -20,7 +20,7 @@ $requestBody->setShowRecommendedPages(false);
 
 
 
-$result = $graphServiceClient->sites()->bySiteId('site-id')->pages()->byPageId('sitePage-id')->patch($requestBody);
+$result = $graphServiceClient->sites()->bySiteId('site-id')->pages()->bySitePageId('sitePage-id')->patch($requestBody);
 
 
 ```
